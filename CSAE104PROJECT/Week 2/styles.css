@@ -1,0 +1,70 @@
+.notice-card {
+    padding:lrem;
+    border-radius: 12px;
+}
+#msg{
+    background: peachpuff;
+    padding: lrem;
+
+border-radius: 12px;
+color: skyblue;
+}
+.notice-board
+{
+    background: grey;
+    padding: lrem;
+    border-radius:12px;
+}
+
+a:hover{
+    color:aquamarine;
+    background-color: bisque;
+    text-decoration: underline;
+font-size: 50px;
+}
+.btn{
+    backgruond-color: yellow;
+    color: mediumseagreen;
+    border: none;
+
+}
+body{
+    border: 5px solid wheat
+    margin: 50px;
+    padding: 30px;
+
+    display: grid;
+    grid-template-areas:
+
+    "header header header"
+    "menu content form"
+    "footer footer footer";
+}
+
+nav{
+    padding: lrem;
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    grid-area: header
+    text-align: center;
+}
+
+main{
+    grid-area: content;
+    display: flex;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+form{
+    grid-area: form;
+}
+
+
